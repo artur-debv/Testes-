@@ -1,6 +1,6 @@
 
 import { fireEvent,  render, screen } from '@testing-library/react'
-import App from './App';
+import App from '../../App';
 
 
 describe('App Component', () => (
@@ -10,6 +10,8 @@ describe('App Component', () => (
 
       screen.getByText('Hello world!');
     }),
+
+    
 
     
     it('should change message on button click',()=>{
@@ -23,6 +25,9 @@ describe('App Component', () => (
 
         screen.getByText(/new message/i);
 
+       const oldmessage =  screen.queryByText('Lets learn more about testing in React')
+
+       expect(oldmessage).toBeNull();
     })
 
 ))
