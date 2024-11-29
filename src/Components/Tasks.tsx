@@ -21,7 +21,9 @@ const Tasks = () => {
         <>
             <h1>Tasks From Api</h1>
             <Button disabled={false} onClick={handleClick}>Get tasks from api</Button>
-            {tasks.map(task => <p>{task.title}</p>)}
+            {tasks.map(task =>
+                <p key={task.id}>{task.title}</p>)
+            }
         </>
     )
 }
