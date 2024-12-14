@@ -4,11 +4,11 @@
 
 <h1>🛠️ Tecnologias Utilizadas</h1> 
 
-<p>**React**: Biblioteca JavaScript para criação de interfaces de usuário.</p>
-<p>**TypeScript**: Superset de JavaScript que adiciona tipagem estática.</p>
-<p>**Testing Library**: Framework para testes de componentes React.</p>
-<p>**Jest**: Test runner e framework de assertions.</p>
-<p>**Vite**: Ferramenta para build e desenvolvimento rápido.</p>
+<p>React: Biblioteca JavaScript para criação de interfaces de usuário.</p>
+<p>TypeScript: Superset de JavaScript que adiciona tipagem estática.</p>
+<p>Testing Library: Framework para testes de componentes React.</p>
+<p>Jest: Test runner e framework de assertions.</p>
+<p>Vite: Ferramenta para build e desenvolvimento rápido.</p>
 
 <h1>🚀 Instalação e Execução</h1>
 
